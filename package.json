@@ -1,0 +1,23 @@
+{
+  "name": "testdjng",
+  "version": "1.0.0",
+  "description": "test django-angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "checking"
+  },
+  "author": "Trace",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawfung/pythonLearn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tawfung/pythonLearn/issues"
+  },
+  "homepage": "https://github.com/tawfung/pythonLearn#readme"
+}

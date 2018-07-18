@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Rolling Stone Top 500 albums of all time</title>
+  <meta name="description" content="Rolling Stone magazine's 2012 list of 500 greatest albums of all time with genres.">
+
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  <link rel="stylesheet" href="{% static 'css/dataTables.bootstrap4.min.css' %}">
+</head>
+
+<body>
+  <div class="container" style="font-size: .9em;">
+    {% block content %}{% endblock %}
+  </div>
+  <script src="{% static 'js/jquery-3.3.1.js' %}"></script>
+  <script src="{% static 'js/jquery.dataTables.min.js' %}"></script>
+  <script src="{% static 'js/dataTables.bootstrap4.min.js' %}"></script>
+  {% block extra_js %}{% endblock %}
+</body>
+</html>
